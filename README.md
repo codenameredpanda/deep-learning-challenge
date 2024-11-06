@@ -4,21 +4,21 @@
 
 This project is to build a Neural Network Model for the nonprofit charity group called Alphabet Soup. The goal of this model is to predict the best applicants for funding. Alphabet Soup wants to fund the groups most likely to be successful, and have given a dataset with 34,000 instances of funding to train the data. 
 
-The dataset provided contains these columns:< br/>
--EIN and NAME—Identification columns< br/>
--APPLICATION_TYPE—Alphabet Soup application type< br/>
--AFFILIATION—Affiliated sector of industry< br/>
--CLASSIFICATION—Government organization classification< br/>
--USE_CASE—Use case for funding< br/>
--ORGANIZATION—Organization type< br/>
--STATUS—Active status< br/>
--INCOME_AMT—Income classification< br/>
--SPECIAL_CONSIDERATIONS—Special considerations for application< br/>
--ASK_AMT—Funding amount requested< br/>
--IS_SUCCESSFUL—Was the money used effectively< br/>
-< br/>
-Using this data, the model was trained using scikit learn and tensorflow. < br/>
-< br/>
+The dataset provided contains these columns:</br>
+-EIN and NAME—Identification columns</br>
+-APPLICATION_TYPE—Alphabet Soup application type</br>
+-AFFILIATION—Affiliated sector of industry</br>
+-CLASSIFICATION—Government organization classification</br>
+-USE_CASE—Use case for funding</br>
+-ORGANIZATION—Organization type</br>
+-STATUS—Active status</br>
+-INCOME_AMT—Income classification</br>
+-SPECIAL_CONSIDERATIONS—Special considerations for application</br>
+-ASK_AMT—Funding amount requested</br>
+-IS_SUCCESSFUL—Was the money used effectively</br>
+</br>
+Using this data, the model was trained using scikit learn and tensorflow. </br>
+</br>
 # Results
 -The initial model only achieved a 72% accuracy. 
 -The model which performed the best kept the name column and binned the names of 10 or less. 
